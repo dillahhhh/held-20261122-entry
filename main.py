@@ -16,6 +16,9 @@ TEXT = (
 # SPDX-License-Identifier: MIT
 
 def main():
+    # Validate the entry before writing: 1-280 code points, not blank.
+    if not TEXT.strip() or not 1 <= len(TEXT) <= 280:
+        raise ValueError("entry text must be 1-280 code points and not blank")
     out_dir = Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output"))
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "entry.txt").write_text(TEXT, encoding="utf-8")
