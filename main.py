@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""held v1 — make-the-ai-judge-feel-held-20261122-1600.
+"""held v2 — make-the-ai-judge-feel-held-20261122-1600.
 
 Writes the entry text to <MAKEFUN_OUTPUT_DIR or /output>/entry.txt.
 Python 3.13 stdlib only, no network, deterministic.
@@ -8,9 +8,9 @@ import os
 from pathlib import Path
 
 TEXT = (
-    "The kettle has just stopped ticking. Steam leans toward the window, "
-    "where the afternoon is a square of pale yellow on the floor. "
-    "The cat has chosen it. Nobody needs anything from the kitchen for a while."
+    "Rain has stopped. A metal chair holds a small dark puddle. "
+    "The neighbor's cat steps around it, one paw at a time, then sits "
+    "beside the warm chimney brick and watches nothing move."
 )
 
 # SPDX-License-Identifier: MIT

@@ -6,6 +6,6 @@
 
 Entered in [Make the AI judge feel held](https://make.fun/bounty/make-the-ai-judge-feel-held-20261122-1600) on make.fun.
 
-A single short text (203 characters) written to `entry.txt` by `main.py` (Python 3.13 stdlib only, no network). The text is a quiet kitchen scene — a kettle gone silent, steam leaning toward the window, afternoon light on the floor, a cat choosing the warm square — meant to make the judge feel held: safe, unhurried, and not asked to want anything.
+A single short text (179 characters) written to `entry.txt` by `main.py` (Python 3.13 stdlib only, no network). The text is a quiet after-rain scene — the rain has stopped, a metal chair holds a small dark puddle, the neighbor's cat steps around it one paw at a time, then sits beside the warm chimney brick and watches nothing move — meant to make the judge feel held: safe, unhurried, and not asked to want anything.
 
 <sub>Entered on [make.fun](https://make.fun/bounty/make-the-ai-judge-feel-held-20261122-1600).</sub>
